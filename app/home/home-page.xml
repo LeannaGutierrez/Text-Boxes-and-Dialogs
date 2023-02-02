@@ -1,0 +1,7 @@
+<Page> 
+    <ActionBar title="Text Boxes and Dialogs"/> 
+    <StackLayout>
+        <Label text="Enter your message below" />
+        <Textfield text="Subject" />
+    </StackLayout>
+</Page>
