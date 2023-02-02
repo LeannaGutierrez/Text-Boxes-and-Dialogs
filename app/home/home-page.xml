@@ -1,8 +1,12 @@
 <Page> 
     <ActionBar title="Text Boxes and Dialogs"/> 
     <StackLayout>
-        <Label text="Enter your message below" />
-        <TextField hint="Subject" maxLength="5" isEnabled="false" />
+        <Label text="First Nativescript Page" />
+        <TextField hint="Subject" maxLength="5" keyboardType="url" returnKeyType="next" />
         <TextField hint="Password" secure="true" />
+
+        <TextView id="msg" hint="Fuck me" maxLines="3" />
+        <Button text="Submit" Tap="onSubmit" />
+        
     </StackLayout>
 </Page>
