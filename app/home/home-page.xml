@@ -2,6 +2,7 @@
     <ActionBar title="Text Boxes and Dialogs"/> 
     <StackLayout>
         <Label text="Enter your message below" />
-        <Textfield hint="Subject" />
+        <Textfield hint="Subject" maxLength="5" isEnabled="false" />
+        <TextField hint="Password" secure="true" />
     </StackLayout>
 </Page>
